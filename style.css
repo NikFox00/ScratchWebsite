@@ -83,6 +83,8 @@ button {
     padding: 5px;
     cursor:pointer;
     font-size: 15px;
+    border-style: solid;
+    border-color:#277bf9;
 }
 .headerright {
     flex: 1;
@@ -205,6 +207,8 @@ button {
 }
 
  .footer {
+ margin-top: auto;
+ flex-shrink: 0;
  background-color: #1F2937;
  height: 70px;
  display: flex;
